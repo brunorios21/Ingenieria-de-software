@@ -4,14 +4,6 @@ Este repositorio nace como parte de un recorrido académico que me entusiasma pr
 
 Incluye trabajos prácticos, apuntes, diagramas y recursos organizados por unidades temáticas, con el objetivo de construir una base sólida en ingeniería de procesos, sistemas de información y modelado UML.
 ---
-
-## 📄 Cronograma
-
-El cronograma completo de la cursada está disponible en formato interactivo:
-
-👉 [Ver cronograma](./cronograma.html)
-
----
 ## Temario por unidad
 
 **→ Unidad 1: Ingeniería de Procesos**  
