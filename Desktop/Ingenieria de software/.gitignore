@@ -1,0 +1,8 @@
+.DS_Store
+*.zip
+*.docx
+*.pdf
+*.db
+*.ini
+*.log
+*.bak
