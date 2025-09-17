@@ -35,18 +35,25 @@ El cronograma completo de la cursada está disponible en formato interactivo:
 • Documentación técnica  
 ---
 
-## Organización del repositorio
+## Cronograma de cursada
 
-Ingenieria-de-software/ 
-├── unidad1/ → Ingeniería de Procesos 
-├── unidad2/ → Sistemas de Información 
-├── unidad3/ → Requerimientos 
-├── unidad4/ → Calidad del Software 
-├── trabajos-practicos/ 
-├── tp1/ → Primer trabajo práctico 
-├── tp2/ → Segundo trabajo práctico 
-├── cronograma.html → Cronograma interactivo de la cursada 
-├── README.md → Presentación del repositorio
+| Fecha       | Unidad / Tema                        | Estado       |
+|-------------|--------------------------------------|--------------|
+| 12/08/2025  | Paro docente                         | Sin clase    |
+| 19/08/2025  | U1 – Procesos                        | Asistido     |
+| 26/08/2025  | U2 – Sistemas de Información         | Asistido     |
+| 02/09/2025  | U2 – Sistemas de Información         | Asistido     |
+| 09/09/2025  | U2 – Sistemas de Información         | Ausente      |
+| 16/09/2025  | U2 – Sistemas de Información         | Asistido     |
+| 23/09/2025  | Primer Examen Parcial                | Examen       |
+| 30/09/2025  | U3 – Requerimientos                  | Asistido     |
+| 07/10/2025  | Recuperatorio Primer Parcial         | Recuperatorio|
+| 14/10/2025  | U3 – Requerimientos                  | Asistido     |
+| 21/10/2025  | U3 – Requerimientos                  | Asistido     |
+| 28/10/2025  | U4 – Calidad                         | Asistido     |
+| 04/11/2025  | U4 – Calidad                         | Asistido     |
+| 11/11/2025  | Segundo Examen Parcial / Entrega TP  | Examen + TP  |
+| 18/11/2025  | Recuperatorio Segundo Parcial        | Recuperatorio|
 
 Cada carpeta contiene los materiales correspondientes: apuntes, presentaciones, diagramas y entregas.
 
