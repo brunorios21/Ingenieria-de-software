@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS internos</title>
+
+   <style>
+ 
+      * {
+         font-size: 14px;
+      }
+
+      h1 {
+         color: chocolate;
+         text-align: center;
+      }
+
+      h2 {
+         font-size: 20px;
+         color: green;
+      }
+      
+      p {
+         color: orange;
+         font-size: 16px;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Para definir propiedades de una clase */
+      .parrafo-destacado {
+         color: lightseagreen;
+         font-size: 20px;
+      }
+
+      /* Definimos propiedades a un id */
+      #parrafo {
+         color: purple;
+         font-size: 10px;
+      }
+     
+      p {
+         font-size: 30px !important;
+      }
+   </style>
+
+</head>
+<body>
+   
+   <h1>Aprendiendo CSS Interno</h1>
+
+   <h2>Esto es un título</h2>
+
+   <p>Este es mi párrafo</p>
+
+   <p class="parrafo-destacado">Este es mi nuevo párrafo</p>
+
+   <p style="font-size: 15px;" id="parrafo" class="parrafo-destacado">Este es otro párrafo</p>
+<!-- 
+   Notación por convención:
+   camelCase -> parrafoDestacado
+   snake_case  -> parrafo_destacado
+   PascalCase -> ParrafoDestacado
+   ******* kebab-case / dash-case -> parrafo-destacado *********
+-->
+   <h2>Esto es otro título</h2>
+   <!-- 
+   Especifidad de los elementos 
+   
+   * < etiquetas < clase < id < inline < !important
+
+   -->
+</body>
+</html>

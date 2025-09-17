@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Multimedia</title>
+</head>
+
+<body>
+
+   <h1>Etiquetas de usos útiles</h1>
+
+   <h2>Etiqueta para las imagenes</h2>
+
+   <img src="https://picsum.photos/200/300?random=1">
+
+   <img src="./pexels-souvenirpixels-417074.jpg" alt="Paisaje de montañas" width="400" height="auto" loading="lazy">
+
+   <picture>
+      <source srcset="https://picsum.photos/200/300" media="(min-width: 800px)" type="image/jpg" loading="lazy">
+
+      <source
+         srcset="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?_gl=1*ufl8cr*_ga*MTcyNjE1NDYzMi4xNzU3NDYxODY5*_ga_8JE65Q40S6*czE3NTc0NjE4NjgkbzEkZzEkdDE3NTc0NjE4NzIkajU2JGwwJGgw"
+         media="(min-width: 400px)" loading="lazy">
+
+      <img src="https://picsum.photos/400/300" alt="Imagen final" loading="lazy">
+   </picture>
+
+   <h2>Audios</h2>
+
+   <!-- autoplay: se lanza al cargar el navegador -->
+   <!-- <audio src="./lofihiphop.mp4" controls muted></audio> -->
+
+   <audio controls autoplay muted loop>
+      <source src="./lofihiphop.mp4" type="audio/mp4">
+   </audio>
+
+   <h2>Vídeos</h2>
+
+   <video controls width="500" poster="./pexels-souvenirpixels-417074.jpg">
+      <source src="./lofihiphop.mp4" type="video/mp4">
+   </video>
+
+   
+   <iframe width="300" height="auto" src="https://www.youtube.com/embed/l98w9OSKVNA?si=cYVn2WUjQZ-NoLOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
